@@ -1,0 +1,151 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background and general body settings */
+body {
+    background-color: #f0f0f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Main Title */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input fields */
+form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Submit Button */
+form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* User List Styling */
+#userList {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#userList div {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Text styling */
+#userList div strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button Styling */
+#userList button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#userList button:first-child {
+    background-color: #ff4b4b;
+}
+
+#userList button:first-child:hover {
+    background-color: #ff3333;
+}
+
+#userList button:last-child {
+    background-color: #4CAF50;
+}
+
+#userList button:last-child:hover {
+    background-color: #45a049;
+}
+
+/* Delete Button Styling */
+.delete-btn {
+    background-color: #ff4b4b; /* Red background */
+    color: white; /* White text color */
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ff3333; /* Darker red on hover */
+    color: white;
+}
+
+/* Edit Button Styling */
+.edit-btn {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
